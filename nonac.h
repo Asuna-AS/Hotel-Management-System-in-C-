@@ -4,6 +4,6 @@
 class NonAC:public Room{
     public:
     NonAC(char ac='N'):Room(ac){};
-    friend class Hotel;
+    
 };
 #endif
